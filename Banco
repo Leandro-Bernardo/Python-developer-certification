@@ -1,15 +1,18 @@
 menu = """
-Depositar : Comando d
-Sacar  : Comando s
-Extrato  : Comando e
-Sair  : Comando q
-=> """
+Depositar :   Comando [d]
+Sacar     :   Comando [s]
+Extrato   :   Comando [e]
+Sair      :   Comando [q] 
+"""
+
 
 saldo = 0
 limite = 500
 extrato = ""
 numero_saques = 0
 LIMITE_SAQUES = 3
+
+
 
 while True:
 
